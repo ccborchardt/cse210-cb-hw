@@ -8,7 +8,7 @@ namespace Learning02
         {
             Console.WriteLine("Hello Learning02 World!");
             Learning02.Program p = new Learning02.Program();
-            p.DoSome();
+           
         }
     }
 }
