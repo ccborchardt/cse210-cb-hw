@@ -6,7 +6,7 @@ namespace Develop03
 {
     public class Scripture
     {
-        private List<Word> words;
+        private List<Word> words= new List<Word>{"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life."};
 
         public ScriptureReference Reference { get; }
         private IReadOnlyList<Word> Words => words.AsReadOnly();
